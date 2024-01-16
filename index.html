@@ -24,16 +24,18 @@
       </h1>
       <h3>
         <button id="accordion-header-1"
-                aria-expanded="true"
-                aria-controls="accordion-panel-1">
+                aria-expanded="false"
+                aria-controls="accordion-panel-1"
+                data-accordion-header>
           What is Frontend Mentor, and how will it help me?
           <img aria-hidden="true"
-              alt="Collapsed status icon"
-              src="assets/images/icon-minus.svg">
+               alt="Collapsed status icon"
+               src="assets/images/icon-plus.svg">
         </button>
       </h3>
       <section id="accordion-panel-1"
-                aria-labelledby="accordion-header-1">
+               aria-labelledby="accordion-header-1"
+               hidden>
         <p>
           Frontend Mentor offers realistic coding challenges to help developers
           improve their frontend coding skills with projects in HTML, CSS and
@@ -43,16 +45,18 @@
       </section>
       <h3>
         <button id="accordion-header-2"
-                aria-expanded="true"
-                aria-controls="accordion-panel-2">
+                aria-expanded="false"
+                aria-controls="accordion-panel-2"
+                data-accordion-header>
           Is Frontend Mentor free?
           <img aria-hidden="true"
-              alt="Collapsed status icon"
-              src="assets/images/icon-minus.svg">
+               alt="Collapsed status icon"
+               src="assets/images/icon-plus.svg">
         </button>
       </h3>
       <section id="accordion-panel-2"
-                aria-labelledby="accordion-header-2">
+               aria-labelledby="accordion-header-2"
+               hidden>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           scelerisque volutpat bibendum. Aenean ut euismod ligula. Morbi ac est
@@ -64,16 +68,18 @@
       </section>
       <h3 class="accordion">
         <button id="accordion-header-3"
-                aria-expanded="true"
-                aria-controls="accordion-panel-3">
+                aria-expanded="false"
+                aria-controls="accordion-panel-3"
+                data-accordion-header>
           Can I use Frontend Mentor projects in my portfolio?
           <img aria-hidden="true"
-              alt="Collapsed status icon"
-              src="assets/images/icon-minus.svg">
+               alt="Collapsed status icon"
+               src="assets/images/icon-plus.svg">
         </button>
       </h3>
       <section id="accordion-panel-3"
-                aria-labelledby="accordion-header-3">
+               aria-labelledby="accordion-header-3"
+               hidden>
         <p>
           Definitely! Please do feel free to use whatever you build in your
           portfolio. Helping developers add professional-looking projects to
@@ -83,16 +89,18 @@
       
       <h3>
         <button id="accordion-header-4"
-                aria-expanded="true"
-                aria-controls="accordion-panel-4">
+                aria-expanded="false"
+                aria-controls="accordion-panel-4"
+                data-accordion-header>
             How can I get help if I'm stuck on a challenge?
           <img aria-hidden="true"
-              alt="Collapsed status icon"
-              src="assets/images/icon-minus.svg">
+               alt="Collapsed status icon"
+               src="assets/images/icon-plus.svg">
         </button>
       </h3>
       <section id="accordion-panel-4"
-                aria-labelledby="accordion-header-4">
+               aria-labelledby="accordion-header-4"
+               hidden>
         <p>
           The best (and quickest) way to get help on a challenge is in our
           Discord server. There are thousands of other developers in there, so
@@ -111,5 +119,6 @@
       Coded by <a href="#">Paulo Vitor F. G. Pivotto</a>.
     </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
