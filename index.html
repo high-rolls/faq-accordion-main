@@ -13,57 +13,91 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <header></header>
+  <div class="bg-image">
+  </div>
   <main>
-    <h1>FAQs</h1>
-    <ul>
-      <li>
-        <button class="accordion-header">
+    <div>
+      <h1>FAQs</h1>
+      <h3>
+        <button id="accordion-header-1"
+                aria-expanded="true"
+                aria-controls="accordion-panel-1">
           What is Frontend Mentor, and how will it help me?
+          <img aria-hidden="true"
+              alt="Collapsed status icon"
+              src="assets/images/icon-minus.svg">
         </button>
-        <div class="accordion-panel">
+      </h3>
+      <section id="accordion-panel-1"
+                aria-labelledby="accordion-header-1">
+        <p>
           Frontend Mentor offers realistic coding challenges to help developers
           improve their frontend coding skills with projects in HTML, CSS and
           JavaScript. It's suitable for all levels and ideal for portfolio
           building.
-        </div>
-      </li>
-      <li class="accordion-panel">
-        <button class="accordion-header">
+        </p>
+      </section>
+      <h3>
+        <button id="accordion-header-2"
+                aria-expanded="true"
+                aria-controls="accordion-panel-2">
           Is Frontend Mentor free?
+          <img aria-hidden="true"
+              alt="Collapsed status icon"
+              src="assets/images/icon-minus.svg">
         </button>
-        <div class="accordion-panel">
+      </h3>
+      <section id="accordion-panel-2"
+                aria-labelledby="accordion-header-2">
+        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           scelerisque volutpat bibendum. Aenean ut euismod ligula. Morbi ac est
           neque. Nam non suscipit neque. Donec bibendum in elit non venenatis.
           Aliquam ac nisi eu velit blandit feugiat in at risus. Maecenas
           accumsan nisi eget justo egestas dignissim. Sed nec ex ac dui mattis
           scelerisque at ac nisl.
-        </div>
-      </li>
-      <li class="accordion">
-        <button class="accordion-header">
+        </p>
+      </section>
+      <h3 class="accordion">
+        <button id="accordion-header-3"
+                aria-expanded="true"
+                aria-controls="accordion-panel-3">
           Can I use Frontend Mentor projects in my portfolio?
+          <img aria-hidden="true"
+              alt="Collapsed status icon"
+              src="assets/images/icon-minus.svg">
         </button>
-        <div class="accordion-panel">
+      </h3>
+      <section id="accordion-panel-3"
+                aria-labelledby="accordion-header-3">
+        <p>
           Definitely! Please do feel free to use whatever you build in your
           portfolio. Helping developers add professional-looking projects to
           their portfolio was one of the reasons we created this platform!
-        </div>
-      </li>
-      <li class="accordion">
-        <button class="accordion-header">
-          How can I get help if I'm stuck on a challenge?
+        </p>
+      </section>
+      
+      <h3>
+        <button id="accordion-header-4"
+                aria-expanded="true"
+                aria-controls="accordion-panel-4">
+            How can I get help if I'm stuck on a challenge?
+          <img aria-hidden="true"
+              alt="Collapsed status icon"
+              src="assets/images/icon-minus.svg">
         </button>
-        <div class="accordion-panel">
+      </h3>
+      <section id="accordion-panel-4"
+                aria-labelledby="accordion-header-4">
+        <p>
           The best (and quickest) way to get help on a challenge is in our
           Discord server. There are thousands of other developers in there, so
           it's a great place to ask questions. We even have a dedicated "help"
           channel! If you haven't joined yet, you can get an invite to our
           Discord server here.
-        </div>
-      </li>
-    </ul>
+        </p>
+      </section>
+    </div>
   </main>
   <footer>
     <div class="attribution">
